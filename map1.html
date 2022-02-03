@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<h1> today topic is map in javascript </h1>
+<div> 
+
+<p class="xyz"> 
+</p>
+</div>
+
+
+
+
+<body>
+<script>
+
+
+//First way 
+const firstname=["spider","ant","lion"];
+const lastname="men";
+
+const fullname=firstname.map(function(value,index,array) { return index+"  "+value+lastname});
+ document.querySelector("p[class=xyz]").innerHTML=fullname;
+
+</script>
+</body>
+</html>
