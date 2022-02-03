@@ -1,1 +1,2 @@
-# map
+javascript map method how to work 
+
